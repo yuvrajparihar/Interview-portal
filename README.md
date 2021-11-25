@@ -11,5 +11,5 @@
  1. Interview start and ends on the same day.
  2. Candidate and interviewer data is already present in database.
  
- ![alt text](https://github.com/yuvrajparihar/Interview-portal/tree/main/images/list.png?raw=true)
+ ![Home](https://github.com/yuvrajparihar/Interview-portal/blob/main/images/list.png?raw=true)
  
