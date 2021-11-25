@@ -176,7 +176,7 @@ function EditSchedule(props) {
         </ModalBody>
         <ModalFooter>
           <Button color="primary" onClick={handleSubmit}>
-            Create
+            Modify
           </Button>{" "}
           <Button onClick={props.toggleEditSchedule}>Cancel</Button>
         </ModalFooter>
