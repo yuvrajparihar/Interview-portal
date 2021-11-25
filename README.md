@@ -1,6 +1,6 @@
 # Interview-portal
 
-## A interview schedule portal where admin can schedule interviews between candidates and interviewer
+## A interview schedule portal where admin can schedule interviews between candidates and interviewers
 
 ### Features :
  1. Admin can Create, Edit, Delete interviews
