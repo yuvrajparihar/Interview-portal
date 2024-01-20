@@ -1,0 +1,17 @@
+version: '3'
+
+networks:
+  new_net:
+    driver: bridge
+
+
+services:
+  mysqldb: # container name
+    image: mysql:8.0 
+    ports:
+      - 5437:3306 # host:docker
+    environment:
+      - MYSQL_ROOT_PASSWORD=password
+    networks:  # if we don't define network then docker-compose will create a default common network for all the containers
+      - new_net
+    

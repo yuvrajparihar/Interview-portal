@@ -1,0 +1,12 @@
+FROM node
+
+# ENV MYSQL_ROOT_PASSWORD=password
+
+# using RUN we can run any linux commands, here directory is created inside the container
+RUN mkdir -p /home/app
+
+# executes on the host
+COPY . /home/app
+
+# entry point command
+CMD ["node", "server.js"]
